@@ -21,3 +21,11 @@ def speak_to_grandma(talk)
   end
 end 
 
+def speak_to_grandma(talk)
+  if talk = talk.upcase
+    return "HUH?! SPEAK UP, SONNY!"
+  elsif talk.upcase
+    return "NO, NOT SINCE 1938!"
+  end
+end 
+
